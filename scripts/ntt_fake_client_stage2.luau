@@ -72,6 +72,7 @@ local fakeGame = {
 -- Luau standard math/string/table functions are injected by the load option.
 env.game = fakeGame
 env._G = env
+env.string = string
 env.print = function(...) log("GUEST_PRINT", ...) end
 env.warn = function(...) log("GUEST_WARN", ...) end
 env.require = function(...) forbid("require") end

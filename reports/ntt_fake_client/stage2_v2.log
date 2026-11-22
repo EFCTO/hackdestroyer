@@ -1,0 +1,4 @@
+[FAKE_CLIENT] HTTP_GET_INTERCEPTED https://raw.githubusercontent.com/NTTTTTTTT/upload/refs/heads/main/content/52c3bd79bdd9407aab6a5e0fad32b3d0_obf.lua cache= true
+[FAKE_CLIENT] LOADSTRING_INTERCEPTED bytes= 676483
+[FAKE_CLIENT] RESULT halted [string "ntt_nested_payload"]:2: attempt to index nil with 'floor'
+[FAKE_CLIENT] SUMMARY HttpGet= 1 loadstring= 1 requests= 0
