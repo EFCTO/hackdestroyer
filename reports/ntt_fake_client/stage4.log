@@ -1,0 +1,108 @@
+[FAKE_CLIENT] SELF_TEST passed standard globals
+[FAKE_CLIENT] GUEST_SELF_TEST passed 
+[FAKE_CLIENT] LOADER_RUNTIME_BEGIN
+[FAKE_CLIENT] HTTP_GET_INTERCEPTED https://raw.githubusercontent.com/NTTTTTTTT/upload/refs/heads/main/content/52c3bd79bdd9407aab6a5e0fad32b3d0_obf.lua cache= true
+[FAKE_CLIENT] LOADSTRING_INTERCEPTED bytes= 676483
+[FAKE_CLIENT] NESTED_COMPILE_OK
+[FAKE_CLIENT] NESTED_RUNTIME_BEGIN
+[FAKE_CLIENT] GUEST_ERROR_CALLED NEc3yj34Bngloy level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED __ntt_probe__ level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED b9JXVVF5VrKeQP8swVM level= 0
+[FAKE_CLIENT] GUEST_ERROR_CALLED 0:18:0 level= 0
+[FAKE_CLIENT] ERROR_STAGE NESTED_RUNTIME
+[FAKE_CLIENT] ERROR_TYPE string
+[FAKE_CLIENT] ERROR_VALUE 0:18:0
+[FAKE_CLIENT] ERROR_TRACEBACK 0:18:0
+/home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace:172 function traceError
+/home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace:253
+/home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace:215
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2 function os
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2 function os
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2 function os
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2 function RbW
+[string "ntt_nested_payload"]:2
+[string "ntt_nested_payload"]:2
+/home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace:251
+/home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace:250
+[string "ntt_loader_offline"]:1
+/home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace:304
+/home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace:294
+
+[FAKE_CLIENT] ERROR_FRAME 2 /home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace 184 traceError
+[FAKE_CLIENT] ERROR_FRAME 3 /home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace 253 
+[FAKE_CLIENT] ERROR_FRAME 4 [C] -1 error
+[FAKE_CLIENT] ERROR_FRAME 5 /home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace 215 
+[FAKE_CLIENT] ERROR_FRAME 6 [string "ntt_nested_payload"] 2 
+[FAKE_CLIENT] ERROR_FRAME 7 [string "ntt_nested_payload"] 2 
+[FAKE_CLIENT] ERROR_FRAME 8 [string "ntt_nested_payload"] 2 os
+[FAKE_CLIENT] ERROR_FRAME 9 [string "ntt_nested_payload"] 2 
+[FAKE_CLIENT] ERROR_FRAME 10 [string "ntt_nested_payload"] 2 
+[FAKE_CLIENT] ERROR_FRAME 11 [string "ntt_nested_payload"] 2 
+[FAKE_CLIENT] ERROR_FRAME 12 [string "ntt_nested_payload"] 2 
+[FAKE_CLIENT] ERROR_FRAME 13 [string "ntt_nested_payload"] 2 
+[FAKE_CLIENT] ERROR_FRAME 14 [string "ntt_nested_payload"] 2 
+[FAKE_CLIENT] ERROR_FRAME 15 [string "ntt_nested_payload"] 2 
+[FAKE_CLIENT] ERROR_FRAME 16 [string "ntt_nested_payload"] 2 os
+[FAKE_CLIENT] ERROR_FRAME 17 [string "ntt_nested_payload"] 2 
+[FAKE_CLIENT] ERROR_FRAME 18 [string "ntt_nested_payload"] 2 
+[FAKE_CLIENT] ERROR_FRAME 19 [string "ntt_nested_payload"] 2 
+[FAKE_CLIENT] ERROR_FRAME 20 [string "ntt_nested_payload"] 2 
+[FAKE_CLIENT] NESTED_RUNTIME_HALTED 0:18:0
+[FAKE_CLIENT] ERROR_STAGE LOADER_RUNTIME
+[FAKE_CLIENT] ERROR_TYPE string
+[FAKE_CLIENT] ERROR_VALUE 0:18:0
+[FAKE_CLIENT] ERROR_TRACEBACK 0:18:0
+/home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace:172 function traceError
+/home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace:307
+/home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace:258
+[string "ntt_loader_offline"]:1
+/home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace:304
+/home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace:294
+
+[FAKE_CLIENT] ERROR_FRAME 2 /home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace 184 traceError
+[FAKE_CLIENT] ERROR_FRAME 3 /home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace 307 
+[FAKE_CLIENT] ERROR_FRAME 4 [C] -1 error
+[FAKE_CLIENT] ERROR_FRAME 5 /home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace 258 
+[FAKE_CLIENT] ERROR_FRAME 6 [string "ntt_loader_offline"] 1 
+[FAKE_CLIENT] ERROR_FRAME 7 /home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace 304 
+[FAKE_CLIENT] ERROR_FRAME 8 [C] -1 xpcall
+[FAKE_CLIENT] ERROR_FRAME 9 /home/goc/research/kinglegacy/scripts/ntt_fake_client_probe_v4_trace 294 
+[FAKE_CLIENT] RESULT halted 0:18:0
+[FAKE_CLIENT] SUMMARY HttpGet= 1 loadstring= 1 requests= 0
