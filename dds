@@ -1,0 +1,54 @@
+                                                                                                             
+┌──(goc㉿kali)-[~/research/kinglegacy]
+└─$ >....                                                                                                     
+data = p.read_bytes()
+
+print("SIZE:", len(data))
+print("SHA256:", hashlib.sha256(data).hexdigest())
+
+markers = [
+    "0:18:0",
+    "0:6b:7c",
+    "0:8e:83",
+    "__ntt_probe__",
+    "NEc3yj34Bngloy",
+    "b9JXVVF5VrKeQP8swVM",
+    "tick",
+    "task",
+    "getrawmetatable",
+    "debug",
+    "RbW",
+]
+
+for marker in markers:
+    token = marker.encode()
+    print(
+        f"{marker:24}",
+        f"count={data.count(token):5}",
+        f"offset={data.find(token)}"
+    )
+PY
+SIZE: 676483
+SHA256: b50bc83d87d20bb4512fd25855d4c34b1f6cb38b697cce26fb5077cf81a59ce2
+0:18:0                   count=    0 offset=-1
+0:6b:7c                  count=    0 offset=-1
+0:8e:83                  count=    0 offset=-1
+__ntt_probe__            count=    0 offset=-1
+NEc3yj34Bngloy           count=    0 offset=-1
+b9JXVVF5VrKeQP8swVM      count=    0 offset=-1
+tick                     count=    0 offset=-1
+task                     count=    0 offset=-1
+getrawmetatable          count=    0 offset=-1
+debug                    count=    0 offset=-1
+RbW                      count=    3 offset=116485
+                                                                                                              
+┌──(goc㉿kali)-[~/research/kinglegacy]
+└─$ find reports -type f \
+  \( -name '*.tsv' \
+  -o -name '*.csv' \
+  -o -name '*.json' \) \
+  | sort
+                                                                                                              
+┌──(goc㉿kali)-[~/research/kinglegacy]
+└─$ nano new.sh                 
+                  
