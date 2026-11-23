@@ -1,0 +1,5 @@
+[FAKE_CLIENT] SELF_TEST passed standard globals
+[FAKE_CLIENT] HTTP_GET_INTERCEPTED https://raw.githubusercontent.com/NTTTTTTTT/upload/refs/heads/main/content/52c3bd79bdd9407aab6a5e0fad32b3d0_obf.lua cache= true
+[FAKE_CLIENT] LOADSTRING_INTERCEPTED bytes= 676483
+[FAKE_CLIENT] RESULT halted 0:18:0
+[FAKE_CLIENT] SUMMARY HttpGet= 1 loadstring= 1 requests= 0
